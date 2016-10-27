@@ -13,7 +13,7 @@ Public Class Form1
             sb.Append(randomChar)
 
             Dim rand As New Random()
-            Dim number = rand.Next(1111, 99999) & randomChar & ".png"
+    Dim number = rand.Next(1111, 9999) & randomChar & ".png"  'You could use 1111 to 99999 also, but you some pics with 5 numbers are not aviable
 
             My.Computer.Network.DownloadFile(
         "http://l.omegle.com/" & number,
