@@ -7,7 +7,7 @@ Public Class Form1
 
         Dim sb As New StringBuilder()
         Dim rand1 As New Random()
-        For i As Integer = 1 To 1
+        For i As Integer = 1 To 1 'Feel free to change this
             Dim idx As Integer = rand1.Next(0, chars2use.Length)
             Dim randomChar As Char = chars2use(idx)
             sb.Append(randomChar)
